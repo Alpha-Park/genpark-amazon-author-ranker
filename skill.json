@@ -1,0 +1,10 @@
+{
+  "name": "genpark-amazon-author-ranker",
+  "version": "1.0.0",
+  "description": "GenPark Amazon Author Ranker - Amazon BSR sales velocity power-law modeler, title keyword search relevance scorer, and ranking decay half-life forecaster with zero dependencies.",
+  "tools": [
+    "estimate_daily_sales_velocity_from_bsr",
+    "calculate_title_keyword_search_relevance",
+    "model_bsr_ranking_decay_half_life"
+  ]
+}
