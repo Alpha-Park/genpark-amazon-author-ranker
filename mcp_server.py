@@ -50,8 +50,7 @@ def model_bsr_ranking_decay_half_life(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Amazon Author Ranker:")
-    print(estimate_daily_sales_velocity_from_bsr(1250, "books"))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
